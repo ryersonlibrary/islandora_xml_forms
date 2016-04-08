@@ -5,7 +5,7 @@
 * To view and modify this theme, visit http://jqueryui.com/themeroller/
 */
 
-/* Datepicker css 
+/* Datepicker css
 ----------------------------------*/
 #ui-datepicker-div.ui-widget { font-family: Verdana,Arial,sans-serif/*{ffDefault}*/; font-size: 1.1em/*{fsDefault}*/; }
 #ui-datepicker-div.ui-widget input, #ui-datepicker-div.ui-widget select, #ui-datepicker-div.ui-widget textarea, #ui-datepicker-div.ui-widget button { font-family: Verdana,Arial,sans-serif/*{ffDefault}*/; font-size: 1em; }
@@ -289,3 +289,20 @@ form .ui-state-error .ui-icon, form .ui-state-error-text .ui-icon {background-im
 
 /* Go home, datepicker line. You're drunk. */
 .ui-datepicker { display: none; }
+
+/* Make form elements look more sane */
+fieldset.form-wrapper { background: #f2f2f2; }
+textarea.form-textarea, input.form-text, form .ui-widget input { background: #fafafa; }
+div.xml-form-elements-tabs { background: #f2f2f2; }
+span.tag-list > span { display: table; margin: 5px 0px 5px 0px; padding: 0px 5px 0px 5px; border: 1px solid #bbb; border-radius: 0px; }
+
+/* Styles for 'required' metadata elements */
+
+label[for=edit-titleinfo-title],
+label[for=edit-abstract],
+label[for=edit-contributors-personal-group], .form-item-contributors-personal-group label,
+fieldset#edit-subjects-group > legend > span, div.form-item-subjects-group-subjects > label,
+label[for=edit-origininfo-dateissued], fieldset#edit-origininfo > legend > span,
+fieldset#edit-licensing > legend > span, div.form-item-licensing-accessCondition > label,
+fieldset#edit-extension-degree > legend > span, label[for=edit-extension-degree-name], label[for=edit-extension-degree-department]
+{ color: #d14; }
