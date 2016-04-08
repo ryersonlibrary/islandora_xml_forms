@@ -295,6 +295,7 @@ fieldset.form-wrapper { background: #f2f2f2; }
 textarea.form-textarea, input.form-text, form .ui-widget input { background: #fafafa; }
 div.xml-form-elements-tabs { background: #f2f2f2; }
 span.tag-list > span { display: table; margin: 5px 0px 5px 0px; padding: 0px 5px 0px 5px; border: 1px solid #bbb; border-radius: 0px; }
+input.form-text { width: 500px; max-width: 100%; }
 
 /* Styles for 'required' metadata elements */
 
