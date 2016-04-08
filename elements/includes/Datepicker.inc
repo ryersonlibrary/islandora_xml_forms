@@ -68,7 +68,7 @@ function theme_datepicker($variables) {
   if (isset($element['#field_prefix'])) {
     $output .= '<span class="field-prefix">' . $element['#field_prefix'] . '</span> ';
   }
-  $output .= '<input type="text"' . $maxlength . ' name="' . $element['#name'] . '" id="' . $element['#id'] . '"' . $size . ' value="' . check_plain($element_val) . '"' . drupal_attributes($element['#attributes']) . ' />';
+  $output .= '<input type="text"' . $maxlength . ' name="' . $element['#name'] . '" id="' . $element['#id'] . '-datepicker"' . $size . ' value="' . check_plain($element_val) . '"' . drupal_attributes($element['#attributes']) . ' />';
   if (isset($element['#field_suffix'])) {
     $output .= ' <span class="field-suffix">' . $element['#field_suffix'] . '</span>';
   }
