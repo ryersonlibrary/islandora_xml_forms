@@ -297,8 +297,16 @@ div.xml-form-elements-tabs { background: #f2f2f2; }
 span.tag-list > span { display: table; margin: 5px 0px 5px 0px; padding: 0px 5px 0px 5px; border: 1px solid #bbb; border-radius: 0px; }
 input.form-text { width: 500px; max-width: 100%; }
 
-/* Styles for 'required' metadata elements */
+/* Style for form titles */
+span.fieldset-legend { text-transform: capitalize; }
+fieldset#edit-form-name.form-wrapper {
+	font-size: 2em;
+	margin: 0px;
+	padding: 1.25em 0 0 0;
+	background-color: #f2dede;
+}
 
+/* Styles for 'required' metadata elements */
 label[for=edit-titleinfo-title],
 label[for=edit-abstract],
 label[for=edit-contributors-personal-group], .form-item-contributors-personal-group label,
