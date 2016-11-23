@@ -9,7 +9,8 @@
         $( "input.datepicker" ).datepicker({
                 changeMonth: true,
                 changeYear: true,
-                dateFormat: 'yy-mm-dd'
+                dateFormat: 'yy-mm-dd',
+                yearRange: '2002:c+00'
             });
         }
     };
